@@ -1,12 +1,12 @@
 package day1;
 
-public class Employee {
+public class ConstructorExample {
     String firstName;
     String lastName;
     byte age;
     char gender;
 
-    public Employee(String firstName, String lastName, byte age, char gender) {
+    public ConstructorExample(String firstName, String lastName, byte age, char gender) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
@@ -45,14 +45,14 @@ public class Employee {
         this.gender = gender;
     }
 
-    static void main() {
-        Employee employee1= new Employee("Deep", "Gangwar", (byte) 23, 'M');
-        Employee employee2= new Employee("Ayush", "Gangwar", (byte) 22, 'M');
-        Employee employee3= new Employee("Priyanshi", "Agarwal", (byte) 21, 'F');
+    public static void main() {
+        ConstructorExample constructorExample1 = new ConstructorExample("Deep", "Gangwar", (byte) 23, 'M');
+        ConstructorExample constructorExample2 = new ConstructorExample("Ayush", "Gangwar", (byte) 22, 'M');
+        ConstructorExample constructorExample3 = new ConstructorExample("Priyanshi", "Agarwal", (byte) 21, 'F');
 
-        System.out.println(employee1.getFirstName() + " " + employee1.getLastName());
-        System.out.println(employee2.getFirstName() + " " + employee2.getLastName());
-        System.out.println(employee3.getFirstName() + " " + employee3.getLastName());
+        System.out.println(constructorExample1.getFirstName() + " " + constructorExample1.getLastName() + " " + constructorExample1.getAge() + " " + constructorExample1.getGender());
+        System.out.println(constructorExample2.getFirstName() + " " + constructorExample2.getLastName() + " " + constructorExample2.getAge() + " " + constructorExample2.getGender());
+        System.out.println(constructorExample3.getFirstName() + " " + constructorExample3.getLastName() + " " + constructorExample3.getAge() + " " + constructorExample3.getGender());
 
     }
 }

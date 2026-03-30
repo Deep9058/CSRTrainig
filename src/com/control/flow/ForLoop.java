@@ -1,4 +1,11 @@
 package com.control.flow;
 
 public class ForLoop {
+    static void main() {
+        int i;
+        for (i=0;i<=10;i++)
+        {
+            System.out.print(i + " ");
+        }
+    }
 }

@@ -1,6 +1,6 @@
 package day1;
 
-public class Html {
+public class StringMethods {
 
     public static void main(String[] args) {
 
@@ -9,7 +9,7 @@ public class Html {
         String rev =str.reverse().toString().toLowerCase();
         boolean b1= copy.equals(rev);
 
-        if (b1== true) {
+        if (b1== true) {s
             System.out.println("String is palindrome");
         } else {
             System.out.println("String is not palindrome");
