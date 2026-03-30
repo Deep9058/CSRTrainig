@@ -1,4 +1,4 @@
-package day1;
+package com.day1;
 
 public class StringConcatenator{
 

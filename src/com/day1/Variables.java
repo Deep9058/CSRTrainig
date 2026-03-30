@@ -1,6 +1,4 @@
-package day1;
-
-import org.w3c.dom.ls.LSOutput;
+package com.day1;
 
 public class Variables {
     int x,y,sum;
