@@ -1,5 +1,7 @@
 package com.packages;
-import static com.packages.Example.a;
+import com.csrTraining.Exercises.Example;
+
+import static com.csrTraining.Exercises.Example.a;
 
 
 public class MyClass {
