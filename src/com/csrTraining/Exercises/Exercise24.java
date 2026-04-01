@@ -14,7 +14,8 @@ public class Exercise24 {
         return "";
     }
 
-    static void main() {
+    public static void main() {
+
         isRaining(true);
     }
 }
