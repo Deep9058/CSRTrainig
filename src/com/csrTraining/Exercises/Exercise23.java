@@ -14,6 +14,7 @@ public class Exercise23 {
     }
 
     static void main() {
+
         checkEven(14);
     }
 }

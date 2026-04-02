@@ -31,7 +31,7 @@ public class Spiderman implements Superhero,Hero{
         spd.stopVillan("Raka");
         spd.walk();
         spd.fight();
-        spd.talk("Deep");
+        spd.talk();
         spd.perfromAddition(5,9);
     }
 }

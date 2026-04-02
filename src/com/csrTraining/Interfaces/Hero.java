@@ -5,9 +5,9 @@ public interface Hero {
 
       String walk();          // Abstract Method    //
       String fight();         // Abstract Method    //
-      default String talk(String name)          // Default Method    //
+      default String talk()          // Default Method    //
       {
-            System.out.println(name +" is talking.");
+            System.out.println("interface Method.");
           return "";
       }
 
