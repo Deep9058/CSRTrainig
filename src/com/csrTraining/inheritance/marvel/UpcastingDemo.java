@@ -6,7 +6,7 @@ public class UpcastingDemo {
         anm.setName("Blackyy");
         AnimalUtility.printName(anm);
 
-        anm= new Dog();
+        anm= new Dog();         // UpCasting    //
         anm.setName("charlie");
         AnimalUtility.printName(anm);
 
