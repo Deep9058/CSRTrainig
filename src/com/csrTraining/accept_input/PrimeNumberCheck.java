@@ -1,16 +1,16 @@
-package com.csrTraining.accept.input;
-
+package com.csrTraining.accept_input;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
-public class PrimeCheckerUsingScanner {
+public class PrimeNumberCheck {
     public static void main() throws IOException {
-        Scanner sc= new Scanner(System.in);
+        InputStreamReader isr= new InputStreamReader(System.in);
+        BufferedReader bf= new BufferedReader(isr);
         System.out.println("Entered no. to check if it is prime or not: ");
-        int num=sc.nextInt();
-        boolean isPrime= isPrime(num);
+        String ch = bf.readLine();
+        int check=Integer.parseInt(ch);
+        boolean isPrime= isPrime(check);
         if (isPrime)
         {
             System.out.println("Entered number is a prime number. ");
@@ -18,7 +18,7 @@ public class PrimeCheckerUsingScanner {
         else
             System.out.println("Entered number is not a prime number. ");
 
-        sc.close();
+        bf.close();
     }
     private static boolean isPrime(int num)
     {

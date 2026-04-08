@@ -3,6 +3,7 @@ package com.csrTraining.Interfaces;
 @FunctionalInterface
 interface functioninterface {
     int addition(int a, int b);
+//    int subtraction(int a, int b);
 
     default String learning() {
         System.out.println("Default Method of FunctionalInterfaceDemo.");

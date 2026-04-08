@@ -1,4 +1,4 @@
-package com.csrTraining.accept.input;
+package com.csrTraining.accept_input;
 
 import java.io.BufferedReader;
 import java.io.IOException;
