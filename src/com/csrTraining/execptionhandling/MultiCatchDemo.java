@@ -3,7 +3,7 @@ package com.csrTraining.execptionhandling;
 import java.util.logging.Logger;
 
 public class MultiCatchDemo {
-    static final Logger logger= Logger.getLogger(ArrayOutOfBoundDemo.class.getName());
+    static final Logger logger= Logger.getLogger(MultiCatchDemo.class.getName());
     public static void main() {
         String input=null;
         try {
