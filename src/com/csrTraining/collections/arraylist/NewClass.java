@@ -1,4 +1,4 @@
-package com.csrTraining.collections;
+package com.csrTraining.collections.arraylist;
 
 import java.util.ArrayList;
 import java.util.Collections;

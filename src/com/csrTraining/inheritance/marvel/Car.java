@@ -24,7 +24,7 @@ public class Car extends Vehical{
     void printinfo() {
         Car car= new Car();
         car.start();
-        System.out.println(car.color);
+        System.out.println(this.color);
         System.out.println(super.color);
 
     }

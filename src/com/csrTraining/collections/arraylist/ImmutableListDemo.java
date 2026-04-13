@@ -1,6 +1,7 @@
-package com.csrTraining.collections;
+package com.csrTraining.collections.arraylist;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -14,37 +15,39 @@ public class ImmutableListDemo{
         list.add(58);
         list.add(264);
         list.add(100);
-//        list= Collections.unmodifiableList(list);
-//        addTenDollar(list);   //
+//
+//      addTenDollar(list);   //
         System.out.println("Original List is: "+ String.valueOf(list));
         Collections.sort(list);
         System.out.println("Ascending order sorted List is: "+ String.valueOf(list));
-        Collections.sort(list, Collections.reverseOrder());
+        list.sort(Comparator.reverseOrder());
         System.out.println("descending order sorted List is: "+ String.valueOf(list));
+        list= Collections.unmodifiableList(list);
+        addTenDollar(list);
 
     }
 
 
-    private static List<String> addTenDollar(List<String>list)
+    private static int addTenDollar(List<Integer>list)
     {
         Logger logger= Logger.getLogger(ImmutableListDemo.class.getName());
         try
         {
-            list.add(0,"Prakhar");
-            for (String name :list)
+            list.add(545);
+            for (Integer name :list)
             {
                 System.out.println("Name is : "+ name);
             }
         }
         catch (Exception e)
         {
-            logger.info("You can not modify Immutable List. ");
+            logger.warning("You can not modify Immutable List. ");
         }
         finally {
             System.out.println("Program Executed Successfully.");
         }
 
-        return list;
+        return 0;
     }
 
 }

@@ -1,6 +1,4 @@
-package com.csrTraining.collections;
-
-import org.jetbrains.annotations.NotNull;
+package com.csrTraining.collections.arraylist;
 
 public class Students implements Comparable<Students>{
     String name;

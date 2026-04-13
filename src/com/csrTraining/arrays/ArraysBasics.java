@@ -3,8 +3,8 @@ import java.util.Arrays;
 public class ArraysBasics {
     static void main() {
         int [] mobilenumber ={2546,4521,5842};
-        String[] name= new String[3];
-        Person[] person= new Person[5];
+        var name= new String[3];
+        var person= new Person[5];
         name[0]="Deep";
         name[1]="Ayush";
         name[2]="Ashish";
