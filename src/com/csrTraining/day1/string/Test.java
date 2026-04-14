@@ -35,4 +35,20 @@ public class Test {
 
     }
 
+
+//    static void main() {
+////        String str= "Deep";
+////        int age=23;
+////        String classes ="Fifth";
+////        boolean isContains = str.startsWith("Hello");
+////        System.out.printf("Age of %s is %d and studying in class %s. ",str,age,classes);
+//
+//
+//        StringBuffer sb= new StringBuffer("Hello Deep");
+//        String str3= "njbv guver";
+//        sb.setLength(2);
+//        System.out.println(sb);
+//        StringBuffer str4= sb.reverse();
+//        System.out.println(str4);
+//}
 }
