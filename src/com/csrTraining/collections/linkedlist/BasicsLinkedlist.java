@@ -24,5 +24,7 @@ public class BasicsLinkedlist {
         System.out.println(li.getLast());
         li.set(2,"Ram");
         System.out.println(li);
+        String [] arr= (String[]) li.toArray();
+        System.out.println(arr);
     }
 }

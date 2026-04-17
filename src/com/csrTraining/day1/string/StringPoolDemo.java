@@ -8,6 +8,7 @@ public class StringPoolDemo {
         String hi= "hello";
         String hey= "hey";
         System.out.println(hello==hi);
+        System.out.println(hello.equals(hi));
         System.out.println(hey==hello);
         System.out.println(hello.hashCode());
         System.out.println(hi.hashCode());
