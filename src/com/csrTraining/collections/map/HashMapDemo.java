@@ -7,16 +7,16 @@ public class HashMapDemo {
     static void main(String[] args) {
         HashMap<String,String> map= new HashMap<>();
         map.put("Deep","Bareilly");
-        map.put("Najmush","Moradabad");
+        map.put("Namjush","Moradabad");
         map.put("Niharika","Noida");
         map.put("MJ","Bareilly");
         map.put(null,null);
 
         System.out.println(map);
-        System.out.println(map.get("MJ"));
+        System.out.println(map.get("Bareilly"));
         System.out.println(map.isEmpty());
         System.out.println(map.keySet());
-        System.out.println(map.remove("MJ"));
+        map.remove("MJ");
         System.out.println(map.values());
         System.out.println(map.size());
 //        System.out.println(map.hashCode());

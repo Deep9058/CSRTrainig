@@ -10,7 +10,8 @@ public class TreeMapDemo {
         treemap.put(28,"Ayush");
         treemap.put(12,"MJ");
         treemap.put(20,"Niharika");
-//        System.out.println(treemap);
+        System.out.println(treemap);
+        System.out.println();
 
         for (Map.Entry<Integer,String> entry: treemap.entrySet())
         {

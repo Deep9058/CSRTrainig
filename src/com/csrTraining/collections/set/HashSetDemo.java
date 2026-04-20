@@ -7,14 +7,14 @@ import java.util.Set;
 
 public class HashSetDemo {
     static void main(String[] args) {
-        HashSet<String> myset= new HashSet<>();
-        myset.add("Deep");
-        myset.add("Deep");
-        myset.add("Ayush");
-        System.out.println("Size of your Set is: "+ myset.size());
+        HashSet<String> set1= new HashSet<>();
+        set1.add("Deep");
+        set1.add("Ayush");
+        System.out.println("Size of your Set is: "+ set1.size());
         System.out.println();
+
 //        Using Iterator        //
-        Iterator<String> iterator= myset.iterator();
+        Iterator<String> iterator= set1.iterator();
         while (iterator.hasNext())
         {
             String name2= iterator.next();
@@ -24,7 +24,7 @@ public class HashSetDemo {
 
 
 //        Using For Each Loop       //
-        for (String val: myset)
+        for (String val: set1)
         {
             System.out.println(val);
         }
