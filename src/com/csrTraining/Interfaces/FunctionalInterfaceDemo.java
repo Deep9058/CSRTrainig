@@ -16,7 +16,6 @@ public class FunctionalInterfaceDemo {
 
         // Lambda expression to add two numbers
         functioninterface add = (a, b) -> a + b;        // lamba expressions;   //
-
         int result = add.addition(10, 20);
         System.out.println("Sum: " + result);
     }
