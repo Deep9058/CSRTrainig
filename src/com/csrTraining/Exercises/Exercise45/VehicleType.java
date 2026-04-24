@@ -1,4 +1,4 @@
-package com.csrTraining.Exercises;
+package com.csrTraining.Exercises.Exercise45;
 
 enum VehicleType
 {

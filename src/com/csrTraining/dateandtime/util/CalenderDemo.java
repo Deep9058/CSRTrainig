@@ -8,7 +8,7 @@ public class CalenderDemo {
     static void main(String[] args) {
         Calendar calendar= Calendar.getInstance();
         GregorianCalendar gregorianCalendar= new GregorianCalendar();
-        GregorianCalendar future_date = new GregorianCalendar(2026,Calendar.AUGUST,25,12,35,45);
+        GregorianCalendar future_date = new GregorianCalendar(2026,25,7,12,35,45);
         System.out.println(calendar.getTime());
         System.out.println(future_date.getTime());
         System.out.println(gregorianCalendar.getActualMaximum(3));
@@ -26,7 +26,7 @@ public class CalenderDemo {
         String formatedDate2 = dateFormat.format(gregorianCalendar.getTime());
         System.out.println(formatedDate2);
 
-        System.out.println(gregorianCalendar.isLeapYear(2047));
+        System.out.println(gregorianCalendar.isLeapYear(2028));
         System.out.println(gregorianCalendar.isLeapYear(2048));
 
     }

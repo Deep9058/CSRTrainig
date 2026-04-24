@@ -1,5 +1,5 @@
-package com.csrTraining.Exercises;
-import static com.csrTraining.Exercises.VehicleType.*;
+package com.csrTraining.Exercises.Exercise45;
+import static com.csrTraining.Exercises.Exercise45.VehicleType.*;;
 public class Exercise45 {
 
     public static double calculateToll(VehicleType type) {
