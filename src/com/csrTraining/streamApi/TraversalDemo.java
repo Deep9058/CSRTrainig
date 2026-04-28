@@ -1,5 +1,5 @@
 package com.csrTraining.streamApi;
-import com.packages.MyClass;
+import com.csrTraining.packages.MyClass;
 import java.util.ArrayList;
 import java.util.logging.Logger;
 import java.util.stream.Stream;

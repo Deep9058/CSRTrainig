@@ -1,4 +1,4 @@
-package com.packages;
+package com.csrTraining.packages;
 
 import java.util.*;
 import java.util.stream.Collectors;

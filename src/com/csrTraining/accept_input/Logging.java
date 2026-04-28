@@ -1,7 +1,5 @@
 package com.csrTraining.accept_input;
 
-import com.packages.MyClass;
-
 import java.util.logging.Logger;
 
 public class Logging {

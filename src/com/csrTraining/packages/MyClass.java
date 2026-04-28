@@ -1,7 +1,4 @@
-package com.packages;
-import com.csrTraining.Exercises.Example;
-
-import static com.csrTraining.Exercises.Example.a;
+package com.csrTraining.packages;
 
 
 public class MyClass {

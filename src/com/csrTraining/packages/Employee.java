@@ -1,4 +1,4 @@
-package com.packages;
+package com.csrTraining.packages;
 
 public class Employee {
     String name;
