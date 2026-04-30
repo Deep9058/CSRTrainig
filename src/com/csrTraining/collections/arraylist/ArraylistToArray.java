@@ -14,7 +14,7 @@ public class ArraylistToArray {
         persons.add(new Person("Jenna", 30));
         persons.add(new Person("Harry", 29));
 
-        Person[] arrayy= persons.toArray(new Person[persons.size()]);
+        Person[] arrayy= persons.toArray(new Person[0]);
         System.out.println(Arrays.toString(arrayy));
 
         List<Person> newarr= Arrays.asList(arrayy);

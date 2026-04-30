@@ -4,7 +4,7 @@ public class Exercise24 {
 
     public static String isRaining(boolean raining) {
 
-        if (!raining==true)
+        if (!raining)
         {
             System.out.println("I'll go for a walk.");
         }
@@ -14,7 +14,7 @@ public class Exercise24 {
         return "";
     }
 
-    public static void main() {
+    static void main() {
 
         isRaining(true);
     }
