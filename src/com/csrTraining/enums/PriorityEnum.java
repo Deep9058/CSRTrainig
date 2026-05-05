@@ -4,5 +4,7 @@ package com.csrTraining.enums;
     LOW,MEDIUM,HIGH,URGENT;
 
     PriorityEnum() {
+
     }
 }
+

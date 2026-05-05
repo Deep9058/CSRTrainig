@@ -2,12 +2,7 @@ package com.csrTraining.lambda;
 
 public class AnonymousClassDemo {
     static void main(String[] args) {
-        Hello hello=new Hello() {
-            @Override
-            public void sayHello() {
-                System.out.println("Anonymous");
-            }
-        };
+        Hello hello= () -> System.out.println("Hello");
         process(hello);
         process(new Hello() {
             @Override

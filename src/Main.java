@@ -1,13 +1,15 @@
+import java.util.EnumSet;
 
-public class Main {
+enum newEnum
+{
+    Deep,Ayush,Abhishek;
+}
 
-    public static void main() {
-        char ch='a';
-       for (int i=0;i<10;i++)
-       {
-           ch++;
-           System.out.println(ch);       }
+class  Main {
+    public static void main(String[] args) {
+        System.out.println(newEnum.Abhishek.ordinal());
+
+        EnumSet<newEnum> enumSet = EnumSet.allOf(newEnum.class);
 
     }
-
 }
