@@ -10,6 +10,7 @@ class  Main {
         System.out.println(newEnum.Abhishek.ordinal());
 
         EnumSet<newEnum> enumSet = EnumSet.allOf(newEnum.class);
+        System.out.println(enumSet);
 
     }
 }

@@ -9,7 +9,7 @@ public class TryWithResources {
     static void main() {
 
         //      TryWithResources Block      //
-        try (Scanner sc= new Scanner(System.in);){
+        try (Scanner sc= new Scanner(System.in)){
             System.out.println("Enter a number: ");
             int number =sc.nextInt();
             System.out.println(++number);
